@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.main-header {
+  background-color: #002366; /* FBI-style dark blue */
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.main-header h1 {
+  font-size: 2rem;
+}
+
+.main-header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #003399;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Story Section */
+.story-section {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.story-section h2 {
+  text-align: center;
+  color: #002366;
+  margin-bottom: 1.5rem;
+}
+
+.story-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.story-card h3 {
+  color: #cc0000;
+}
+
+.story-card p,
+.story-card ul {
+  margin: 1rem 0;
+}

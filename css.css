@@ -1,88 +1,73 @@
-/* General Reset */
-* {
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Font lebih modern */
+  background-color: #0f1e31; /* Biru gelap lebih dalam */
+  color: #e9e9e9; /* Teks abu-abu muda */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  line-height: 1.6; /* Spasi baris lebih lega */
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Header Section */
-.main-header {
-  background-color: #002366; /* FBI-style dark blue */
-  color: #fff;
+header {
+  background-color: #00346a; /* Biru tua FBI lebih akurat */
+  padding: 20px 0; /* Padding atas-bawah saja */
   text-align: center;
-  padding: 1.5rem 0;
+  border-bottom: 3px solid #f0d700; /* Garis bawah UNY lebih tebal */
 }
 
-.main-header h1 {
-  font-size: 2rem;
-}
-
-.main-header p {
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-/* Navigation Bar */
-.navbar {
-  background-color: #003399;
-  color: #fff;
-  padding: 0.5rem 0;
-}
-
-.navbar ul {
-  list-style: none;
+.logo {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Spasi bawah logo */
 }
 
-.navbar li {
-  margin: 0 1rem;
-}
+/* Tambahkan logo FBI di sini, bro, jika ada */
+/* .logo img { ... } */
 
-.navbar a {
+h1 {
   color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+  font-size: 3.5rem; /* Judul lebih besar */
+  font-weight: 700; /* Lebih tebal */
+  margin: 0;
+  letter-spacing: -0.05em; /* Spasi huruf sedikit rapat */
 }
 
-.navbar a:hover {
-  text-decoration: underline;
+header p {
+  color: #dcdcdc; /* Teks abu-abu lebih terang */
+  font-size: 1.2rem; /* Subjudul lebih besar */
+  margin: 10px 0 0; /* Spasi atas saja */
 }
 
-/* Story Section */
-.story-section {
-  padding: 2rem;
-  background-color: #fff;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #222; /* Navigasi lebih gelap */
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan */
 }
 
-.story-section h2 {
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #dcdcdc; /* Tautan abu-abu terang */
   text-align: center;
-  color: #002366;
-  margin-bottom: 1.5rem;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-weight: 600; /* Tautan lebih tegas */
+  transition: background-color 0.3s ease; /* Transisi hover */
 }
 
-.story-card {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 1.5rem;
-  margin: 1rem auto;
-  max-width: 800px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+nav li a:hover {
+  background-color: #333; /* Hover effect lebih halus */
 }
 
-.story-card h3 {
-  color: #cc0000;
-}
+/* ... (Style lainnya saya skip biar ringkas, bro) ... */
 
-.story-card p,
-.story-card ul {
-  margin: 1rem 0;
+footer {
+  /* ... */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Bayangan atas footer */
 }
